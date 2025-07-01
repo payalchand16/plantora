@@ -1,0 +1,57 @@
+Test Case ID,Test Case Title,Objective,Steps,Expected Result
+TC01,User Registration,Verify the user registration functionality.,"1. Open the Plantora app.
+2. Click on the 'Sign Up' button.
+3. Enter valid user details.
+4. Click on 'Register'.",User should be successfully registered and redirected to the login page.
+TC02,User Login,Verify the login functionality with valid credentials.,"1. Open the Plantora app.
+2. Enter valid email and password.
+3. Click on 'Login'.",User should be logged in and redirected to the home screen.
+TC03,Invalid Login Attempt,Verify the app behavior when incorrect login credentials are entered.,"1. Open the Plantora app.
+2. Enter an invalid email or password.
+3. Click on 'Login'.",The app should show an error message indicating invalid login credentials.
+TC04,Add New Plant,Verify the functionality of adding a new plant to the app.,"1. Log in to the app.
+2. Navigate to 'Add New Plant'.
+3. Enter valid plant details.
+4. Click on 'Save'.","The plant should be added successfully, and a confirmation message should appear."
+TC05,Edit Plant Details,Verify the functionality of editing plant details.,"1. Log in to the app.
+2. Select a plant from the collection.
+3. Click on 'Edit'.
+4. Modify plant details.
+5. Click on 'Save'.","The plant details should be updated, and the changes should be reflected."
+TC06,Delete Plant,Verify the deletion of a plant from the collection.,"1. Log in to the app.
+2. Select a plant from the collection.
+3. Click on 'Delete'.
+4. Confirm deletion.","The plant should be removed, and the user should get a confirmation message."
+TC07,Set Plant Care Reminder,"Verify the functionality of setting a care reminder (e.g., watering).","1. Log in to the app.
+2. Select a plant.
+3. Navigate to 'Set Reminder'.
+4. Set a watering reminder.
+5. Save reminder.","The reminder should be set successfully, and the user should get a notification at the scheduled time."
+TC08,Notification for Plant Care,"Verify that the user receives a notification for plant care (e.g., watering).","1. Log in to the app.
+2. Set a plant care reminder.
+3. Wait for the scheduled time.
+4. Verify notification.",The user should receive a notification at the scheduled time for plant care.
+TC09,Plant Health Monitoring,Verify the functionality of plant health monitoring.,"1. Log in to the app.
+2. Select a plant.
+3. Record health status.
+4. Save status.","The health status should be saved, and the record should be updated."
+TC10,UI Responsiveness (Mobile View),Verify that the app is responsive on mobile devices.,"1. Open the app on a mobile device.
+2. Navigate through various screens.","The app should be responsive, with all UI elements properly aligned."
+TC11,UI Responsiveness (Tablet View),Verify that the app is responsive on tablet devices.,"1. Open the app on a tablet device.
+2. Navigate through various screens.","The app should adjust to the tablet screen size, with UI elements properly formatted."
+TC12,Sync with Smart Devices,"Verify the functionality of syncing with smart devices (e.g., automatic watering system).","1. Log in to the app.
+2. Connect to a smart watering device.
+3. Set watering schedule.
+4. Verify watering device sync.",The smart device should sync with the app and perform the watering task as scheduled.
+TC13,Search Functionality for Plants,Verify that the search functionality works as expected.,"1. Log in to the app.
+2. Enter the plant name in the search bar.
+3. Click on 'Search'.",The app should return relevant plant search results matching the search term.
+TC14,App Crash (Negative Testing),"Test the app’s behavior under unexpected conditions (e.g., no network connection).","1. Log in to the app.
+2. Disable the network connection.
+3. Attempt to perform tasks.
+4. Verify app behavior.",The app should handle the no network situation gracefully and show a 'No Network' message.
+TC15,Logout Functionality,Verify the logout functionality.,"1. Log in to the app.
+2. Go to 'Settings'.
+3. Click on 'Logout'.",The user should be logged out and redirected to the login screen.
+TC16,Accessibility Testing (VoiceOver/Screen Reader),"Verify the app's accessibility for users with disabilities (e.g., using VoiceOver or screen reader).","1. Open the app with accessibility features enabled.
+2. Navigate through the app.","The app should be fully navigable using accessibility tools, and key elements should be readable."
